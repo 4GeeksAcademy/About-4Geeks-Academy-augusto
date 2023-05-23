@@ -1,0 +1,115 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info: Ja!
+
+    # Your full name
+    first_name: Augusto Nahuel
+    last_name: Schemberger
+    
+    # Define yourself in 4-5 words
+    motto: I like personal madness
+    
+    # focus
+    focus: Killing the world with flow
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+     My career is in the process of formation, with 20 years my little experience is as a car mechanic
+     , professional mechanic of all types of bicycles (especially mountain) and basic computer studies. 
+     I think I could go on but buuuffff I think the teacher only wants a couple of lines of code here;D.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/130497560?v=4 (Yes I know, I look wonderful in the photo, I have to update my profile picture)
+
+    # Contact Information
+    email: augustosche@gmail.com
+    phone: +34 663 41 95 26
+    website: In project 😢
+    linkedin: In project too 😢
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/AugustoSchemberger
+    
+    twitter: "I use more instagram, sorry 😢 "
+    stack-overflow: # Number/Username, e.g. 123456/alandoe ("I don't understand 😢")
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Mountain Bike
+
+      - item: Gym weights
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Highschool
+      university: Ies Escultor Daniel
+      # optional
+      Highschool_logo: https://th.bing.com/th/id/R.8a675411544317e91ed9bb886b1e4fd6?rik=tVn%2bFGTLoBf3AA&pid=ImgRaw&r=0
+      time: 2017 - 2019
+      details: |
+        Normal high school studies, but I was the best ha!
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Warehouse Forklift and Manager
+      time: 2021 - 2023
+      company: Transportation Jose Maria Navajas
+      # optional
+      company_logo: https://transportesnavajas.es/
+      details: |
+       In this job I was in charge of using all types of machinery in the warehouse, trucks, organization and team manager.
+        I claimed an equal salary for my skills and they denied it to me, I ended up resigning.
+
+    - role: Professional cleaner
+      time: 2016 - 2017
+      company: (The company went bankrupt and asked for privacy)
+      # optional
+      company_logo: "No one"
+      details: |
+      We cleaned truck cabins, cars, boats, types of fabrics, sofas, etc.
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
